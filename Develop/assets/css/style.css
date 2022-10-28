@@ -1,30 +1,30 @@
-* {
+* {       /*Allows the box on the right the be placed*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body {    /*Makes background n whole page white*/
     background-color: #d9dcd6;
 }
 
-.header {
+.header {  /*Gives the main header its properties*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.header h1 { /*Additional properties for the header*/
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .seo {  /*Gives color to "seo"*/
     color: #d9dcd6;
 }
 
-.header div {
+.header div {   /*Gives font and allignment properties to tags*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,26 +32,26 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
+.header div ul { /*Sets list style for header tags*/
+    list-style-type:l none;
 }
 
-.header div ul li {
+.header div ul li { /*Puts the header tags to the right and puts an spacing of 25px between them*/
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+a { /*Sets color to tags*/
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+p { /*Sets fontsize of paragraphs to 16 px*/
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
+.hero { /*Gives properties to the main image*/
+    height: 600px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -59,23 +59,23 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left { /*Pushes the header text from the sections to the right from the image*/
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /*Alligns paragraph text in sections the be spaced out from images 25px*/
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.content { /*Moves main sections to the right from the edge of the page and gives it a width and aligns it with the main sections*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.benefits { /*Sets properties for the section on the right side*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,22 +86,22 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead { /*Alligns text in right section on the top portion*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+.benefit-brand { /*Alligns text and sets color for mid right section*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+.benefit-cost { /*Alligns text and sets color for bottom righ portion*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-lead h3 { 
     margin-bottom: 10px;
     text-align: center;
 }
@@ -116,25 +116,25 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
+.benefit-lead img { /*Sets properties for image on the right to be inside the block section and changes the size*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+.benefit-brand img { /*Sets properties for image on the right to be inside the block section and changes the size*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+.benefit-cost img { /*Sets properties for image on the right to be inside the block section and changes the size*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.search-engine-optimization { /*Gives properties for section such as background color, sizing, margins and font with color*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +143,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+.online-reputation-management { /*Gives properties for section such as background color, sizing, margins and font with color*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +152,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+.social-media-marketing { /*Gives properties for section such as background color, sizing, margins and font with color*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,40 +161,40 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.search-engine-optimization img { /*Sizing of image*/
     max-height: 200px;
 }
 
-.online-reputation-management img {
+.online-reputation-management img { /*Sizing of image*/
     max-height: 200px;
 }
 
-.social-media-marketing img {
+.social-media-marketing img { /*Sizing of image*/
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.search-engine-optimization h2 { /*Sets placement for top section text header*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+.online-reputation-management h2 { /*Sets placement for mid section text header*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+.social-media-marketing h2 { /*Sets placement for the bottom section text header*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+.footer { /*Sets properties for the footer*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.footer h2 { /*Sets font size for footer*/
     font-size: 20px;
 }
